@@ -1,4 +1,4 @@
-## Tensor Stream Video Compression in Python
+## Tensor Stream Image and Video Compression in Python
 
 MIT License
 
