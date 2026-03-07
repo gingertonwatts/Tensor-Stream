@@ -1,5 +1,9 @@
 ## Tensor Stream Image and Video Compression in Python
 
+
+![image](chelsea_k4_cutoff0.002_tn_paper.png)
+
+
 MIT License
 
 Copyright (c) 2026 Thomas Watts
