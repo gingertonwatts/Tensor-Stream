@@ -1,4 +1,4 @@
-## Tensor Stream Image and Video Compression in Python
+## Tensor Stream: MPS/TT-based Image and Video Compression in Python
 
 
 ![image](chelsea_k4_cutoff0.002_tn_paper.png)
