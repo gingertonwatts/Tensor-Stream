@@ -19,7 +19,9 @@ Tensor Stream is an early-stage research codebase for **tensor-network (TT/MPS) 
 Given image data $X \in \mathbb{R}^{r \times c}$, define a padded dyadic grid by
 
 $$
-n_x = 2^{d_x}, \qquad n_y = 2^{d_y}, \qquad
+n_x = 2^{d_x}, \qquad n_y = 2^{d_y},
+$$
+$$
 d_x = \lceil \log_2 r \rceil, \qquad d_y = \lceil \log_2 c \rceil.
 $$
 
