@@ -67,7 +67,7 @@ f_k(x,y)=\sum_{u=0}^{2^k-1}\sum_{v=0}^{2^k-1}
 \mathbf{1}_{\Omega_{u,v}}(x,y)\,P_{u,v}(x,y).
 $$
 
-Each block polynomial can be encoded as an MPS and assembled into a global state, with controlled truncation threshold $\epsilon_{\mathrm{cut}}$ during additions/canonicalization and final compression to a target $\chi_{\max}$.
+Each block polynomial can be encoded as an MPS and assembled into a global state, with controlled truncation threshold $\epsilon_{\mathrm{cut}}$ during additions/canonicalization and final compression to a target max bond dimension $\chi_{\max}$.
 
 ### 4) Extension to $d$ dimensions
 
