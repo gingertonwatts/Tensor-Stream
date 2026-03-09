@@ -27,7 +27,11 @@ d_x = \lceil \log_2 r \rceil, \qquad d_y = \lceil \log_2 c \rceil.
 $$
 
 Let $f(x_i, y_j) = X[i,j]$ on valid pixels and $0$ on padded locations. Write indices in binary as
-$i = i_1 + 2 i_2 + \cdots + 2^{d_x-1} i_{d_x} and $j = j_1 + 2 j_2 + \cdots + 2^{d_y-1} j_{d_y}$. Then interleave bits to form a Morton/Z-order label $s_{i,j}$:
+$$
+i=\sum_{k=1}^{d_x} 2^{k-1} i_k, j=\sum_{k=1}^{d_y} 2^{k-1} j_k
+$$
+
+Then interleave bits to form a Morton/Z-order label $s_{i,j}$:
 
 $$
 s_{i,j} = i_1 + 2 j_1 + 4 i_2 + 8 j_2 + \cdots.
