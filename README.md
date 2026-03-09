@@ -32,7 +32,7 @@ i=\sum_{k=1}^{d_x} 2^{k-1} i_k
 $$
 
 $$
-$j=\sum_{k=1}^{d_y} 2^{k-1} j_k$
+j=\sum_{k=1}^{d_y} 2^{k-1} j_k
 $$
 Then interleave bits to form a Morton/Z-order label $s_{i,j}$:
 
