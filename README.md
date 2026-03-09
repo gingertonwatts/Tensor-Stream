@@ -4,8 +4,6 @@ Tensor Stream is an early-stage research codebase for **tensor-network (TT/MPS) 
 
 ![Tensor Stream logo](chelsea_k4_cutoff0.002_tn_paper.png)
 
----
-
 ## Mathematical framework
 
 ### 1) 2D bit-interleaved encoding
