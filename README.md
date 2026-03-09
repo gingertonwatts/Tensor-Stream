@@ -21,6 +21,7 @@ Given image data $X \in \mathbb{R}^{r \times c}$, define a padded dyadic grid by
 $$
 n_x = 2^{d_x}, \qquad n_y = 2^{d_y},
 $$
+
 $$
 d_x = \lceil \log_2 r \rceil, \qquad d_y = \lceil \log_2 c \rceil.
 $$
@@ -30,6 +31,7 @@ Let $f(x_i, y_j) = X[i,j]$ on valid pixels and $0$ on padded locations. Write in
 $$
 i = i_1 + 2 i_2 + \cdots + 2^{d_x-1} i_{d_x},
 $$
+
 $$
 j = j_1 + 2 j_2 + \cdots + 2^{d_y-1} j_{d_y},
 $$
@@ -58,8 +60,7 @@ $$
 expand $P(x_1 + x_2, y_1 + y_2)$ using binomial identities and define
 
 $$
-\varphi_{k,\ell}(x,y)=\sum_{n=k}^{p}\sum_{m=\ell}^{q}
-a_{nm}\binom{n}{k}\binom{m}{\ell}x^{\,n-k}y^{\,m-\ell}.
+\varphi_{k,\ell}(x,y)=\sum_{n=k}^{p}\sum_{m=\ell}^{q} a_{nm}\binom{n}{k}\binom{m}{\ell}x^{\,n-k}y^{\,m-\ell}.
 $$
 
 Collecting the $\varphi_{k,\ell}$ terms gives a first core, and repeated decomposition over digit contributions yields
@@ -81,13 +82,7 @@ f_k(x,y)=\sum_{u=0}^{2^k-1}\sum_{v=0}^{2^k-1}
 \mathbf{1}_{\Omega_{u,v}}(x,y)\,P_{u,v}(x,y).
 $$
 
-Each block polynomial can be encoded as an MPS and assembled into a global state, with controlled truncation threshold $\epsilon_{\mathrm{cut}}$ during additions/canonicalization and final compression to a target $\chi_{\max}$. A typical objective is
-
-$$\chi_{\mathrm{best}}
-=\min_{k,\epsilon_{\mathrm{cut}}}
-\left\{\chi_{\max}(k,\epsilon_{\mathrm{cut}})
-:F \ge F_{\min}\right\},$$
-where $F$ is the state fidelity.
+Each block polynomial can be encoded as an MPS and assembled into a global state, with controlled truncation threshold $\epsilon_{\mathrm{cut}}$ during additions/canonicalization and final compression to a target $\chi_{\max}$.
 
 ### 4) Extension to $d$ dimensions
 
