@@ -30,9 +30,6 @@ Let $f(x_i, y_j) = X[i,j]$ on valid pixels and $0$ on padded locations. Write in
 
 $$
 i = i_1 + 2 i_2 + \cdots + 2^{d_x-1} i_{d_x},
-$$
-
-$$
 j = j_1 + 2 j_2 + \cdots + 2^{d_y-1} j_{d_y},
 $$
 then interleave bits to form a Morton/Z-order label $s_{i,j}$:
