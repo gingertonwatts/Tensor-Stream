@@ -2,7 +2,7 @@
 
 Tensor Stream is an early-stage research codebase for **tensor-network (TT/MPS) compression of images and videos** using **bit-interleaved indexing** and **piecewise polynomial approximation**.
 
-![Tensor Stream logo](images/chelsea_k4_cutoff0.002_tn_paper.png)
+![Tensor Stream logo](chelsea_k4_cutoff0.002_tn_paper.png)
 
 ## What this repository now includes
 
