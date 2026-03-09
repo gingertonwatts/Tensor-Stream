@@ -60,7 +60,7 @@ In this repository, the implementation exposes this pipeline through `tensor_str
 
 ### 3) Piecewise bicubic blocks
 
-To model non-polynomial image content, split the domain into $2^k \times 2^k$ blocks $\Omega_{u,v}$, fit a local degree-$(3,3)$ polynomial $P_{u,v}$ on each block, and define
+To model non-polynomial image content, split the domain into $2^k \times 2^k$ blocks $\Omega_{u,v}$, fit a local degree-(3,3) polynomial $P_{u,v}$ on each block, and define
 
 $$
 f_k(x,y)=\sum_{u=0}^{2^k-1}\sum_{v=0}^{2^k-1}
