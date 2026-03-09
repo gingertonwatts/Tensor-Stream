@@ -85,6 +85,12 @@ with worst-case internal rank scaling like $\prod_j (p_j + 1)$ before truncation
 
 ---
 
+
+## Examples
+
+- `examples/webcam_2d_example.ipynb`: baseline webcam + piecewise reconstruction workflow.
+- `examples/video_delta_compression_advanced.ipynb`: advanced natural-video delta compression study with bond-dimension/accuracy and payload-size curves.
+
 ## Project structure
 
 ```text
