@@ -4,14 +4,6 @@ Tensor Stream is an early-stage research codebase for **tensor-network (TT/MPS) 
 
 ![Tensor Stream logo](chelsea_k4_cutoff0.002_tn_paper.png)
 
-## What this repository now includes
-
-- A proper `src/` package layout (`tensor_stream`) for reusable core logic.
-- Centralized modules for indexing, polynomial TT/MPS construction, and piecewise bicubic fitting.
-- Backward-compatible wrappers for the original script-style modules.
-- Unit tests covering indexing correctness, polynomial evaluation equivalence, and bicubic block reconstruction.
-- An example notebook in `examples/` showing the current 2D workflow.
-
 ---
 
 ## Mathematical framework
