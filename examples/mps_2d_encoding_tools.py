@@ -5,8 +5,7 @@ Prefer importing from ``tensor_stream``.
 
 import numpy as np
 
-from tensor_stream.indexing import bit_flip, interleaved_bits_to_indices
-from tensor_stream.piecewise import fit_bicubic_to_image, reconstruct_image_from_coefficients
+from tensor_stream.indexing import interleaved_bits_to_indices
 
 
 def reconstruct_from_xy(xs, ys):

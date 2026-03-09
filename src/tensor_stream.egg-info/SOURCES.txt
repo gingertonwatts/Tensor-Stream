@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/tensor_stream/__init__.py
+src/tensor_stream/indexing.py
+src/tensor_stream/piecewise.py
+src/tensor_stream/polynomial_tt.py
+src/tensor_stream.egg-info/PKG-INFO
+src/tensor_stream.egg-info/SOURCES.txt
+src/tensor_stream.egg-info/dependency_links.txt
+src/tensor_stream.egg-info/requires.txt
+src/tensor_stream.egg-info/top_level.txt
+tests/test_indexing.py
+tests/test_piecewise.py
+tests/test_polynomial_tt.py
