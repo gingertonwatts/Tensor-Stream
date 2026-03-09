@@ -80,13 +80,14 @@ Each block polynomial can be encoded as an MPS and assembled into a global state
 ### 4) Extension to $d$ dimensions
 
 For 
+
 $$P(\mathbf{x})=
 \sum a_{n_1,\dots,n_d}\prod_{j=1}^{d}\bigl(x^{(j)}\bigr)^{n_j},
 $$
 
 where $x^{(j)} = \sum_{r=1}^{m} x_r^{(j)}$. Applying a multinomial expansion coordinate-wise to obtain a constructive TT factorization
 
-$P(\mathbf{x}) = G_1(\mathbf{x}_1)\cdots G_m(\mathbf{x}_m),$
+$$P(\mathbf{x}) = G_1(\mathbf{x}_1)\cdots G_m(\mathbf{x}_m),$$
 
 with worst-case internal rank scaling like $\prod_j (p_j + 1)$ before truncation/compression.
 
